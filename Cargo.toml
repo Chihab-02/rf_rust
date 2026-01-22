@@ -1,0 +1,27 @@
+[package]
+name = "rf_rust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+num-complex = "0.4"
+
+# TUI dependencies
+ratatui = "0.26"
+crossterm = "0.27"
+
+# For spectrum analysis
+rustfft = "6.1"
+
+# Random number generation for demo data
+rand = "0.8"
+
+# TTY detection
+atty = "0.2"
+
+# Async runtime
+tokio = { version = "1.0", features = ["full"] }
+
+# UHD support (optional for demo)
+# uhd = { git = "https://github.com/samcrow/uhd-rust", package = "uhd" }
+
